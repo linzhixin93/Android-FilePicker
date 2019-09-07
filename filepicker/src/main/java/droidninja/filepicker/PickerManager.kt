@@ -157,14 +157,14 @@ object PickerManager {
         val docs = arrayOf("doc", "docx", "dot", "dotx")
         fileTypes.add(FileType(FilePickerConst.DOC, docs, R.drawable.icon_file_doc))
 
-        val ppts = arrayOf("ppt", "pptx")
-        fileTypes.add(FileType(FilePickerConst.PPT, ppts, R.drawable.icon_file_ppt))
+//        val ppts = arrayOf("ppt", "pptx")
+//        fileTypes.add(FileType(FilePickerConst.PPT, ppts, R.drawable.icon_file_ppt))
 
         val xlss = arrayOf("xls", "xlsx")
         fileTypes.add(FileType(FilePickerConst.XLS, xlss, R.drawable.icon_file_xls))
 
-        val txts = arrayOf("txt")
-        fileTypes.add(FileType(FilePickerConst.TXT, txts, R.drawable.icon_file_unknown))
+//        val txts = arrayOf("txt")
+//        fileTypes.add(FileType(FilePickerConst.TXT, txts, R.drawable.icon_file_unknown))
     }
 
     fun getFileTypes(): ArrayList<FileType> {
